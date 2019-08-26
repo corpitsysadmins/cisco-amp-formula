@@ -14,4 +14,4 @@ Example Pillar
       package_file: 'salt:///files/cisco_amp/your_policy_your-linux-versionfireamplinux_connector.rpm'
 
 
-See *cisco_amp/pillar.example*.
+See *pillar.example*.
