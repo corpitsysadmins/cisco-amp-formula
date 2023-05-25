@@ -1,6 +1,0 @@
-{% set cisco_amp_map = salt['grains.filter_by']({
-    'RedHat': {
-        'package_name'	: 'ciscoampconnector',
-        'service_name'	: 'cisco-amp',
-    },
-}, grain = 'os_family', merge = salt['pillar.get']('cisco_amp')) %}
